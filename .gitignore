@@ -1,0 +1,11 @@
+# SBT
+target/
+project/target/
+project/project/
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
