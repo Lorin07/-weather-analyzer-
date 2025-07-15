@@ -9,3 +9,13 @@ project/project/
 # IDE
 .idea/
 .vscode/
+
+# Ignorer les fichiers de compilation Scala
+target/
+
+# Ignorer les environnements Python
+.venv/
+
+# Cache macOS
+.DS_Store
+

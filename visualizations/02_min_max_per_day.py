@@ -1,0 +1,15 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv("data/generated/average_temperature.csv")
+df['date'] = pd.to_datetime(df['date'])
+agg = df.groupby("date")["avg_temp"].agg(['min','max'])
+plt.figure(figsize=(10,6))
+plt.plot(agg.index, agg['min'], label='Min')
+plt.plot(agg.index, agg['max'], label='Max')
+plt.title("Min et Max de température quotidienne")
+plt.xlabel("Date")
+plt.ylabel("Température (°C)")
+plt.legend()
+plt.grid(True)
+plt.tight_layout()
+plt.show()

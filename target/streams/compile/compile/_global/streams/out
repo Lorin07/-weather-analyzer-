@@ -1,2 +1,16 @@
-[0m[[0m[33mwarn[0m] [0m[0m2 deprecations (since 2.13.0); re-run with -deprecation for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lorinkakahoun/Appli/wa/weather-analyzer/src/main/scala/weatheranalyzer/Main.scala:31:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval classified = TemperaturePredictor.classifyAll(cleanedData)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lorinkakahoun/Appli/wa/weather-analyzer/src/main/scala/weatheranalyzer/Main.scala:32:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mPredictionExporter.exportToCSV(classified, "data/generated/predictions.csv")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lorinkakahoun/Appli/wa/weather-analyzer/src/main/scala/weatheranalyzer/Main.scala:34:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mval preds = LinearRegressor.predictAll(cleanedData)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lorinkakahoun/Appli/wa/weather-analyzer/src/main/scala/weatheranalyzer/Main.scala:35:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mprintln("Exemples de prédictions linéaires :")[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/lorinkakahoun/Appli/wa/weather-analyzer/src/main/scala/weatheranalyzer/Main.scala:36:1: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0mpreds.take(5).foreach(println)[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
